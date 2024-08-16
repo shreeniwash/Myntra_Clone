@@ -1,0 +1,132 @@
+.bag-page{
+    width: 75%;
+    margin-left: 12.5%;
+}
+.bag-items-container{
+    width: 64%;
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 32px;
+    border-radius: 1px solid #eaeaec;
+    color: #282c3f;
+    font-size: 13px;
+    line-height: 1.42857143;
+
+    }
+.bag-item-container{
+margin-bottom: 8px;
+background: #fff;
+font-size: 14px;
+padding: 12px 12px 0;
+border: 1px solid #eaeaec;
+position: relative;
+border-radius: 4px;
+
+}
+.item-left-part{
+height: 148px;
+width: 111px;
+position: absolute;
+background: rgb(255, 242, 223);
+}
+.bag-item-image{
+width: 100%;
+}
+.item-right-part{
+    padding-left: 12px;
+    position: relative;
+    margin-left: 111px;
+    margin-bottom: 12px;
+    min-height: 148px;
+}
+
+.return-period{
+display: inline-flex;
+padding-top: 8px;
+font-size: 14px;
+font-weight: 600;
+
+}
+.return-period-days{
+ margin-right: 4px;
+ padding-right: 10px;
+ font-weight: 700;
+
+}
+.delivery-details{
+ font-size: 16px;
+ font-weight: 700;
+ margin-top: 4px;
+ margin-bottom: 8px;
+ letter-spacing: -.1px;
+ line-height: 15px;
+ font-size: 16px;
+ color:  #282c3f;
+}
+.delivery-date{
+ color:#03a685;
+}
+.remove-from-cart{
+position: absolute;
+height: 14px;
+width: 14px;
+font-size: 25px;
+right: 18px;
+top:10px;
+cursor: pointer;
+}
+
+/*BAG SUMMARY */
+.bag-summary{
+    vertical-align: top;
+    width:35% ;
+    display: inline-block;
+    padding: 24px 0 0 16px;
+    color: #282c3f;
+    font-size: 13px;
+    line-height: 1.42857143;
+
+}
+.bag-details-container{
+    margin-bottom: 16px;
+
+}
+.price-header{
+    color: #535766;
+    font-weight: 700;
+    font-size: 14px;
+    margin: 24px 0 16px;
+}
+.price-item{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.price-item-value{
+    float: right;
+}
+.priceDetail-base-discount{
+    color: #03a685;
+}
+.price-footer{
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 16px;
+    border-top: 1px solid #eaeaec;
+    color: #3e4152;
+    line-height: 16px;
+}
+.btn-place-order{
+ width: 100%;
+ border-radius: 2px;
+ border-width: 0;
+ padding: 10px 16px;
+ letter-spacing: 1px;
+ font-size: 14px;
+ font-weight: 600;
+  background-color: rgb(255, 63, 108);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-bottom: 30px;
+}
